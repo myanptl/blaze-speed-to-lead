@@ -1,0 +1,17 @@
+{
+  "name": "blaze-speed-to-lead",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "node --test",
+    "start": "node --env-file=.env server.js",
+    "send": "node --env-file=.env scripts/send-lead.js"
+  },
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "@supabase/supabase-js": "^2.117.3",
+    "zod": "^4.6.5"
+  }
+}
